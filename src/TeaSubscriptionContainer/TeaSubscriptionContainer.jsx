@@ -6,15 +6,15 @@ function TeaSubs( {teaSubs}) {
     return (
         <TeaSubscriptions
             title={sub.attributes.title} 
-            // images={sub.attributes.tea.image}
-            // will have to add images to backend and seed data
+            image={sub.attributes.image_url}
+            id={sub.id}
             />
     )   
     })
 
     return (
         <section className='TeaSubscriptionContainer' >
-            {teaSubs}
+            {teaSubsData}
         </section>
     )
 }

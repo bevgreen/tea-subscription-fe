@@ -1,7 +1,7 @@
 import './TeaSubscriptionContainer.css'
 import { Link } from 'react-router-dom'
 
-function TeaSubscription({title}) {
+function TeaSubscription({title, image, id}) {
     return (
         <div className='TeaSubscription'>
             <Link to={`/${id}`}>
