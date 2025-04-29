@@ -11,7 +11,7 @@ function App() {
     const showHomeIcon = location.pathname !== '/'
     
     function goHome(){
-        navigate('/')
+        // navigate('/') lets put this in container
     }
     
     useEffect(() => {
@@ -24,5 +24,23 @@ function App() {
         .then((data) => setTeaSubs(data))
         .catch((err) => setError(err))
     }
-    
+
+    return (
+        <main className='App'>
+            <header>
+                <h1>
+                    kettle on tea subscriptions
+                </h1>
+            </header>
+            {error && (
+            <div className="error-message">
+            {error.message}
+            </div>
+        )}
+        <Routes>
+            <Route path='/' element={ <TeaSubscriptionContainer teaSubs={teaSubs} /> } />
+            <Route path="/:id" element={ <TeaSubscriptionDetails />} />
+        </Routes>
+        </main>
+    )
 }
