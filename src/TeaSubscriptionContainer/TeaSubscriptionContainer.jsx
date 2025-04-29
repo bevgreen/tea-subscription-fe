@@ -6,6 +6,7 @@ function TeaSubs( {teaSubs}) {
     return (
         <TeaSubscriptions
             title={sub.attributes.title} 
+            // images={sub.attributes.tea.image}
             // will have to add images to backend and seed data
             />
     )   
