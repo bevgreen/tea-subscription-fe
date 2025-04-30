@@ -18,7 +18,7 @@ Kettle On Tea Subscription is an easy-to-use mock e-commerce interface for users
 1. Clone the repo to your local machine: `git clone https://github.com/bevgreen/tea-subscription-fe.git`
 2. Open the directory: `cd tea-subscription-fe`
 3. Install packages: `npm install`
-4. Begin the server: `npm start`
+4. Begin the server: `npm run dev`
 5. Open your web browser to the local path: [http://localhost:5173/](http://localhost:5173/)
 
 ## Highlights/GIFs
