@@ -1,13 +1,15 @@
-import './TeaSubscriptionContainer.css'
+import './TeaSubscriptions.css'
 import { Link } from 'react-router-dom'
 
-function TeaSubscription({title, image, id}) {
-    return (
-        <div className='TeaSubscription'>
-            <Link to={`/${id}`}>
-                <img className = "TeaSubscriptionImg" src = {image} alt = {title} />
-            </Link>
-        </div>
-    )
+function TeaSubscriptions({ title, image, id }) {
+  return (
+    <div className="TeaSubscription">
+      <Link to={`/${id}`}>
+        <img className = "TeaSubscriptionImg" src = {image} alt={title} />
+      </Link>
+      <h3>{title}</h3>
+    </div>
+  )
 }
-export default TeaSubscription
+
+export default TeaSubscriptions
