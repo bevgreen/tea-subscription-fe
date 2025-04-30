@@ -1,0 +1,93 @@
+
+.subscription-details {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #444;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subscription-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.tea-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tea-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tea-item strong {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.tea-item p {
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.tea-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.customer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.customer-list li {
+  background-color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
