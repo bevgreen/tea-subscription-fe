@@ -94,9 +94,7 @@ function App() {
                         onChange={handleTeaFilterChange}
                     >
                         <option value="">All Teas</option>
-                        {/* Render unique teas in the dropdown */}
                         {uniqueTeas.map((tea) => {
-                            // Find the full tea object by ID in the allTeas array
                             const fullTea = allTeas.find((t) => t.id === tea.id)
                             const teaTitle = fullTea ? fullTea.attributes.title : "Unknown Tea"
 
