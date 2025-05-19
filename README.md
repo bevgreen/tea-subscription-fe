@@ -15,11 +15,12 @@ Kettle On Tea Subscription is an easy-to-use mock e-commerce interface for users
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Steps for Setup
-1. Clone the repo to your local machine: `git clone https://github.com/bevgreen/tea-subscription-fe.git`
-2. Open the directory: `cd tea-subscription-fe`
-3. Install packages: `npm install`
-4. Begin the server: `npm run dev`
-5. Open your web browser to the local path: [http://localhost:5173/](http://localhost:5173/)
+1. Clone the [backend repo](https://github.com/bevgreen/tea-subscription-be) first and follow steps in README 
+2. Clone this FE repo to your local machine: `git clone https://github.com/bevgreen/tea-subscription-fe.git`
+3. Open the directory: `cd tea-subscription-fe`
+4. Install packages: `npm install`
+5. Begin the server: `npm run dev`
+6. Open your web browser to the local path: [http://localhost:5173/](http://localhost:5173/)
 
 ## Highlights/GIFs
 ![Tea Details](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWpwbHQweGZ4eThkMDI3dnh1YW4wNHJjdnlzejF1bG1uOXM2dGE3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DoYy4lWrjWtP4g6dxC/giphy.gif)
